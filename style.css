@@ -1,0 +1,123 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #cd0d0d;
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar {
+    background-color: #df96c1;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.search-bar {
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+    margin-right: 40px;
+    flex: 1;
+    color: #df96c1;
+}
+
+.navbar-right {
+    display: flex;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 15px;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.nav-link:hover {
+    background-color: #555;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.profile-section {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.profile-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.profile-info {
+    flex: 1;
+}
+
+.add-friend, .hide-profile {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.add-friend:hover, .hide-profile:hover {
+    background-color: #ddd;
+}
+
+.username {
+    font-size: 18px;
+    margin: 0;
+}
+
+.profile-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.add-friend:hover, .hide-profile:hover {
+    background-color: #0056b3;
+}
+
+.chat-section {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-list, .chat-box {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.login-prompt {
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+}
